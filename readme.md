@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A simple web application to manage account balances, record transactions, and provide budgeting assistance.
 </div>
 
 <br />
@@ -66,6 +66,27 @@ Guiding Question:
 - Whats the purpose
 - What are key components
 - What technology used and how it is used
+
+# Account Transactions
+
+Welcome to the **Account Transactions** project! This web application helps users manage their account balance, record all transaction histories (e.g., deposits, withdrawals), and provides budgeting tips through an interactive character.
+
+## My WakaTime Stats
+
+![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sdoxina)
+
+## Features
+- Create an account with a starting balance of 5000.
+- Record deposits and withdrawals in a transaction history table.
+- Automatically log dates and times for each transaction.
+- An animated character offers personalized budgeting tips based on transaction history.
+
+## Installation
+To install and run the project locally:
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/sdoxina/Account-Transactions.git
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->

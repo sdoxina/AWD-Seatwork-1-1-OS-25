@@ -6,23 +6,23 @@
     <title>Account Transactions</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
+<body onload="loadAccountData()">
     <div class="container">
         <h1>Account Transactions</h1>
+        <button onclick="logoutUser()">Logout</button>
+
         <div id="account-section">
-            <h2>Create an Account</h2>
-            <button onclick="createAccount()">Create Account</button>
-            <p id="account-status"></p>
+            <h2>Welcome, <span id="account-email"></span></h2>
             <p id="balance">Balance: $<span id="current-balance">0</span></p>
         </div>
 
         <!-- Character section -->
         <div id="character-section">
             <img id="helper-character" src="character.png" alt="Helper Character">
-            <div id="character-message">Hi! I'm your budget buddy. Let's start by creating your account!</div>
+            <div id="character-message">Hi! I'm your budget buddy. Let's start by making a transaction!</div>
         </div>
 
-        <div id="transaction-section" style="display:none;">
+        <div id="transaction-section">
             <h2>Make a Transaction</h2>
             <input type="number" id="transaction-amount" placeholder="Enter amount">
             <button onclick="deposit()">Deposit</button>
@@ -30,7 +30,7 @@
             <p id="transaction-message"></p>
         </div>
 
-        <div id="history-section" style="display:none;">
+        <div id="history-section">
             <h2>Transaction History</h2>
             <table id="transaction-history-table">
                 <thead>
@@ -48,5 +48,6 @@
         </div>
     </div>
     <script src="./assets/js/scripts.js"></script>
+    <script src="../../assets/js/script.js"></script>
 </body>
 </html>
