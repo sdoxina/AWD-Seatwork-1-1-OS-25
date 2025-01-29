@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#balance {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#transaction-message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Character Section */
+#character-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#helper-character {
+    max-width: 150px;
+}
+
+#character-message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}

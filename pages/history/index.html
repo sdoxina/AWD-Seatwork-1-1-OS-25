@@ -16,23 +16,21 @@
             <p id="balance">Balance: $<span id="current-balance">0</span></p>
         </div>
 
-        <!-- Character section -->
-        <div id="character-section">
-            <img id="helper-character" src="character.png" alt="Helper Character">
-            <div id="character-message">Hi! I'm your budget buddy. Let's start by making a transaction!</div>
-        </div>
-
-        <div id="transaction-section">
-            <h2>Make a Transaction</h2>
-            <input type="number" id="transaction-amount" placeholder="Enter amount">
-            <button onclick="deposit()">Deposit</button>
-            <button onclick="withdraw()">Withdraw</button>
-            <p id="transaction-message"></p>
-        </div>
-
         <div id="history-section">
             <h2>Transaction History</h2>
-            <a href="../history/index.html"><button class="history-btn">Check your transaction history</button></a>
+            <table id="transaction-history-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Transaction</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody id="transaction-history-body">
+                    <!-- History rows will be dynamically inserted here -->
+                </tbody>
+            </table>
         </div>
     </div>
     <script src="./assets/js/scripts.js"></script>
