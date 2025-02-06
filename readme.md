@@ -57,7 +57,7 @@
 **Furtune** is a simple web application for managing account transactions. Users can start with an initial balance and track deposits and withdrawals. The app maintains a history of all transactions, providing clear insights into account activity.
 
 ### Features
-- Start with a balance of **$5000**  
+- Start with a balance of **5000**  
 - Record **deposits** and **withdrawals**  
 - Maintain a **transaction history**  
 
@@ -75,7 +75,7 @@
 Manage your account transactions through the app:  
 
 - **Starting Balance**  
-  ▪ Each account begins with a **$5000** balance.  
+  ▪ Each account begins with a **5000** balance.  
 
 - **Deposits & Withdrawals**  
   ▪ Add funds to your account or withdraw available amounts.  
