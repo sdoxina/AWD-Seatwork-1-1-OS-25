@@ -5,22 +5,17 @@
 <br />
 <div align="center">
   <a href="https://github.com/sdoxina/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">WD-Seatwork_1</h3>
+  <h3 align="center">Furtune</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
   A simple web application to manage account balances, record transactions, and provide budgeting assistance.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=sdoxina/WD-Seatwork_1)
+![](https://visit-counter.vercel.app/counter.png?page=sdoxina/AWD-Seatwork-1-1-OS-25)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -29,7 +24,6 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -37,7 +31,7 @@
       <a href="#overview">Overview</a>
       <ol>
         <li>
-          <a href="#key-components">Key Components</a>
+          <a href="#features">Features</a>
         </li>
         <li>
           <a href="#technology">Technology</a>
@@ -45,7 +39,10 @@
       </ol>
     </li>
     <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
+      <a href="#installation">Installation</a>
+    </li>
+    <li>
+      <a href="#usage">Usage</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
@@ -57,83 +54,34 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+**Furtune** is a simple web application for managing account transactions. Users can start with an initial balance and track deposits and withdrawals. The app maintains a history of all transactions, providing clear insights into account activity.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
-# Account Transactions
-
-Welcome to the **Account Transactions** project! This web application helps users manage their account balance, record all transaction histories (e.g., deposits, withdrawals), and provides budgeting tips through an interactive character.
-
-## My WakaTime Stats
-
-![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sdoxina)
-
-## Features
-- Create an account with a starting balance of 5000.
-- Record deposits and withdrawals in a transaction history table.
-- Automatically log dates and times for each transaction.
-- An animated character offers personalized budgeting tips based on transaction history.
-
-## Installation
-To install and run the project locally:
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/sdoxina/Account-Transactions.git
-
-
-### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+### Features
+- Start with a balance of **$5000**  
+- Record **deposits** and **withdrawals**  
+- Maintain a **transaction history**  
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
-## Rules, Practices and Principles
-1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
-2. Do not rename any .html files; always use `index.html` as the filename.
-3. Place Files in their respective folders.
-4. All file naming are in camel case.
-   - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeding words first letter are in upper followed by lower cased letters.
-   - ex.: buttonAnimatedStyle.css
-5. Use only `External CSS`.
-6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
-7. File Structure to follow below.
+### Installation
+1. Clone or download the project files.
+2. Open `index.html` in a web browser.
+3. Ensure JavaScript is enabled for full functionality.
 
-```
-WD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ index.html
-└─ readme.md
-```
+### Usage
+Manage your account transactions through the app:  
+
+- **Starting Balance**  
+  ▪ Each account begins with a **$5000** balance.  
+
+- **Deposits & Withdrawals**  
+  ▪ Add funds to your account or withdraw available amounts.  
+
+- **Transaction History**  
+  ▪ View a record of all deposits and withdrawals in real-time.  
 
 ## Resources
 
