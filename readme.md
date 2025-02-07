@@ -10,7 +10,7 @@
   <h3 align="center">Furtune</h3>
 </div>
 <div align="center">
-  A simple web application to manage account balances and record transactions.
+  A simple website to manage account balances and record transactions.
 </div>
 
 <br />
@@ -54,7 +54,7 @@
 
 ## Overview
 
-**Furtune** is a simple web application for managing account transactions. Users can start with an initial balance and track deposits and withdrawals. The app maintains a history of all transactions, providing clear insights into account activity.
+**Furtune** is a simple website for managing account transactions. Users can start with an initial balance and track deposits and withdrawals. The app maintains a history of all transactions, providing clear insights into account activity.
 
 ### Features
 - Start with a balance of **5000**  
