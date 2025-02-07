@@ -17,7 +17,7 @@
 
 ![](https://visit-counter.vercel.app/counter.png?page=sdoxina/AWD-Seatwork-1-1-OS-25)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/65f5d1d3-0933-4b6c-b6df-d8bf043e70be/project/1f176fa1-df52-41f6-adb2-1a3e962358a3.svg)](https://wakatime.com/badge/user/65f5d1d3-0933-4b6c-b6df-d8bf043e70be/project/1f176fa1-df52-41f6-adb2-1a3e962358a3)
 
 ---
 
