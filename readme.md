@@ -10,7 +10,7 @@
   <h3 align="center">Furtune</h3>
 </div>
 <div align="center">
-  A simple web application to manage account balances, record transactions, and provide budgeting assistance.
+  A simple web application to manage account balances and record transactions.
 </div>
 
 <br />
