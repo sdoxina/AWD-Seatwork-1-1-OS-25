@@ -9,8 +9,9 @@
 .navbar-img {
     height: auto;
     width: auto;
-    max-height: 50px;
-    min-height: 40px;
+    max-height: 35px;
+    min-height: 25px;
+    margin-right: 0.5rem;
 }
 
 .navbar-brand {
@@ -59,7 +60,7 @@
         font-size: 18px;
     }
     .navbar-brand img {
-        height: 24px;
+        height: 10px;
         width: auto;
     }
     .navbar-toggler {
@@ -88,8 +89,9 @@
 .offcanvas-title img {
     height: auto;
     width: auto;
-    max-height: 50px;
-    min-height: 40px;
+    max-height: 25px;
+    min-height: 15px;
+    margin-right: 0.5rem;
 }
 
 .offcanvas-title {
