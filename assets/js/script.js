@@ -35,7 +35,7 @@ function signupUser(event) {
 
     localStorage.setItem(email, JSON.stringify(userData));
     document.getElementById('signup-message').textContent = "Account created successfully with an initial balance of $5000!";
-    setTimeout(() => window.location.href = '../../index.html', 1500);
+    setTimeout(() => window.location.href = './index.html', 1500);
 }
 
 
