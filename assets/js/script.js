@@ -53,7 +53,7 @@ function loginUser(event) {
 
     // Store the logged-in user in sessionStorage (simulating a login session)
     sessionStorage.setItem('loggedInUser', email);
-    window.location.href = '/pages/transaction/index.html'; // Redirect to account page after successful login
+    window.location.href = 'AWD-Seatwork-1-1-OS-25/pages/transaction/index.html'; // Redirect to account page after successful login
 }
 
 function checkLogin() {
