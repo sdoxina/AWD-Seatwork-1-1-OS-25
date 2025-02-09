@@ -34,7 +34,7 @@ function signupUser(event) {
     };
 
     localStorage.setItem(email, JSON.stringify(userData));
-    document.getElementById('signup-message').textContent = "Account created successfully with an initial balance of $5000!";
+    document.getElementById('signup-message').textContent = "Your account has been successfully created with an initial balance of PHP 5,000! Redirecting to login page...";
     setTimeout(() => window.location.href = '/AWD-Seatwork-1-1-OS-25/index.html', 1500);
 }
 
