@@ -148,3 +148,8 @@ function checkLogin() {
         window.location.href = '/AWD-Seatwork-1-1-OS-25/index.html'; // Redirect to login if not logged in
     }
 }
+
+function logoutUser() {
+    sessionStorage.removeItem('loggedInUser');
+    window.location.href = '../../../../index.html'; // Redirect to login after logout
+}
