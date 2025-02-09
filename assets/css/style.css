@@ -1,0 +1,97 @@
+.navbar {
+    background-color: #fff;
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
+.navbar-img {
+    height: auto;
+    width: auto;
+    max-height: 50px;
+    min-height: 40px;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: #606c38;
+    font-size: 24px;
+    transition: 0.3s color;
+    width: 10%;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #222222;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active:hover {
+    color: #283618;
+}
+
+@media (min-width: 991px) {
+    .nav-link:hover::before, .nav-link.active:hover::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar {
+        padding: 0.5rem 0.5rem;
+        height: auto;
+    }
+    .navbar-brand {
+        padding: 0;
+        margin-right: 0.5rem;
+        font-size: 18px;
+    }
+    .navbar-brand img {
+        height: 24px;
+        width: auto;
+    }
+    .navbar-toggler {
+        font-size: 0.9rem;
+        padding: 0.3rem 0.5rem;
+    }
+    .navbar-nav .nav-link {
+        padding: 0.3rem 0;
+    }
+    .offcanvas-header {
+        padding: 0.5rem 1rem;
+    }
+    .offcanvas-title img {
+        height: 50px;
+        width: auto;
+        margin-right: 0.5rem;
+    }
+    .offcanvas-body .nav-link {
+        padding: 0.25rem 0;
+    }
+    .login-button {
+        padding: 0.25rem 0.5rem;
+    }
+}
+
+.offcanvas-title img {
+    height: auto;
+    width: auto;
+    max-height: 50px;
+    min-height: 40px;
+}
+
+.offcanvas-title {
+    color: #606c38;
+}
