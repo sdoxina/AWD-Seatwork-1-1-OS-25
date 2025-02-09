@@ -5,9 +5,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/sdoxina/">
-    <img src="./assets/img/furtuneLogo.png" alt="Furtune" width="130" height="130">
+    <img src="./assets/img/astrisHLogo.png" alt="Astris Bank" width="auto" height="130">
   </a>
-  <h3 align="center">Furtune</h3>
+  <h3 align="center">Astris</h3>
 </div>
 <div align="center">
   A simple website to manage account balances and record transactions.
@@ -54,10 +54,10 @@
 
 ## Overview
 
-**Furtune** is a simple website for managing account transactions. Users can start with an initial balance and track deposits and withdrawals. The app maintains a history of all transactions, providing clear insights into account activity.
+**Astris** is a simple website for managing account transactions. Users can start with an initial balance and track deposits and withdrawals. The app maintains a history of all transactions, providing clear insights into account activity.
 
 ### Features
-- Start with a balance of **5000**  
+- Start with a balance of **PHP 5000**  
 - Record **deposits** and **withdrawals**  
 - Maintain a **transaction history**  
 
