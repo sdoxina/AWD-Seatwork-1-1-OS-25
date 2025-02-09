@@ -5,19 +5,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/sdoxina/">
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/furtuneLogo.png" alt="Furtune" width="130" height="130">
   </a>
   <h3 align="center">Furtune</h3>
 </div>
 <div align="center">
-  A simple web application to manage account balances, record transactions, and provide budgeting assistance.
+  A simple website to manage account balances and record transactions.
 </div>
 
 <br />
 
 ![](https://visit-counter.vercel.app/counter.png?page=sdoxina/AWD-Seatwork-1-1-OS-25)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/65f5d1d3-0933-4b6c-b6df-d8bf043e70be/project/1f176fa1-df52-41f6-adb2-1a3e962358a3.svg)](https://wakatime.com/badge/user/65f5d1d3-0933-4b6c-b6df-d8bf043e70be/project/1f176fa1-df52-41f6-adb2-1a3e962358a3)
 
 ---
 
@@ -54,7 +54,7 @@
 
 ## Overview
 
-**Furtune** is a simple web application for managing account transactions. Users can start with an initial balance and track deposits and withdrawals. The app maintains a history of all transactions, providing clear insights into account activity.
+**Furtune** is a simple website for managing account transactions. Users can start with an initial balance and track deposits and withdrawals. The app maintains a history of all transactions, providing clear insights into account activity.
 
 ### Features
 - Start with a balance of **5000**  
