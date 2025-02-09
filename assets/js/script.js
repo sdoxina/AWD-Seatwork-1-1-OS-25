@@ -58,11 +58,11 @@ function loginUser(event) {
 
 function checkLogin() {
     if (!sessionStorage.getItem('loggedInUser')) {
-        window.location.href = '../../index.html'; // Redirect to login if not logged in
+        window.location.href = './index.html'; // Redirect to login if not logged in
     }
 }
 
 function logoutUser() {
     sessionStorage.removeItem('loggedInUser');
-    window.location.href = '../../index.html'; // Redirect to login after logout
+    window.location.href = './index.html'; // Redirect to login after logout
 }
