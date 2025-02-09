@@ -52,7 +52,7 @@ function deposit() {
     userData.balance += amount;
     console.log("Balance after deposit:", userData.balance); // Debugging
 
-    transactionMessage.textContent = `$${amount} deposited successfully.`;
+    transactionMessage.textContent = `PHP ${amount} deposited successfully.`;
     transactionMessage.style.color = 'green';
 
     userData.transactionHistory.push({
@@ -93,7 +93,7 @@ function withdraw() {
     userData.balance -= amount;
     console.log("Balance after withdrawal:", userData.balance); // Debugging
 
-    transactionMessage.textContent = `$${amount} withdrawn successfully.`;
+    transactionMessage.textContent = `PHP ${amount} withdrawn successfully.`;
     transactionMessage.style.color = 'green';
 
     userData.transactionHistory.push({
