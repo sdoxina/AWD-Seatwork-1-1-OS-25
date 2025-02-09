@@ -1,35 +1,212 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff;
+   }
+   
+   .navbar {
+       background-color: #fff;
+       height: 80px;
+       margin: 20px;
+       border-radius: 16px;
+       padding: 0.5rem;
+   }
+   
+   .navbar-img {
+       height: auto;
+       width: auto;
+       max-height: 40px;
+       min-height: 30px;
+       margin-right: 0.5rem;
+   }
+   
+   .navbar-brand {
+       font-weight: 500;
+       color: #00b0dc;
+       font-size: 24px;
+       transition: 0.3s color;
+       width: 10%;
+   }
+   
+   .navbar-toggler {
+       border: none;
+       font-size: 1.5rem;
+   }
+   
+   .navbar-toggler:focus, .btn-close:focus {
+       box-shadow: none;
+       outline: none;
+   }
+   
+   .nav-link {
+       color: grey;
+       font-weight: 500;
+       position: relative;
+   }
+   
+   .navbar-nav .nav-link.active{
+       color: #fea000;
+   }
+   
+   .nav-link:hover, .nav-link.active:hover {
+       color: #fea000;
+   }
+   
+   .nav-link:hover::after {
+       content: "";
+       display: block;
+       position:relative;
+       height: 2px;
+       background-image: linear-gradient(to right, #00b0dc, #fefae0);
+       top: 85%;    
+   }
+   
+   @media (min-width: 991px) {
+       .nav-link:hover::before, .nav-link.active:hover::before {
+           width: 100%;
+           visibility: visible;
+       }
+   }
+   
+   @media (max-width: 767.98px) {
+       .navbar {
+           padding: 0.5rem 0.5rem;
+           height: auto;
+           display: flex;
+           justify-content: center; /* or space-between */
+           align-items: center;
+       }
+       .navbar-brand {
+           padding: 0;
+           margin-right: 0.5rem;
+           font-size: 18px;
+       }
+       .navbar-brand img {
+           height: 15px;
+           width: auto;
+       }
+       .navbar-toggler {
+           font-size: 0.9rem;
+           padding: 0.5rem;
+           position: relative;
+           top: 5px;
+       }
+       .navbar-nav .nav-link {
+           padding: 0.3rem 0;
+       }
+   
+       .nav-link:hover::after {
+         background-image: linear-gradient(to right, #00b0dc, #fefae0);
+         width: 15%;   
+     }
+   
+       .offcanvas-header {
+           padding: 0.5rem 1rem;
+       }
+       .offcanvas-title img {
+           height: 50px;
+           width: auto;
+           margin-right: 0.5rem;
+       }
+       .offcanvas-body .nav-link {
+           padding: 0.25rem 0;
+       }
+       .login-button {
+           padding: 0.25rem 0.5rem;
+       }
+   }
+   
+   .offcanvas-title img {
+       height: auto;
+       width: auto;
+       max-height: 30px;
+       min-height: 20px;
+       margin-right: 0.5rem;
+   }
+   
+   .offcanvas-title {
+       color: #00b0dc;
+       margin-top: 1rem;
+   }
+
+   .footer {
+    background-color: #f8f9fa;
+    padding: 0;
+    overflow-y: auto;
+  }
+  
+  .footer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer h5 {
+    color: #00b0dc;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer h6,
+  .footer p {
+    color: #6c757d;
     margin: 0;
-    padding: 20px;
-}
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #6c757d;
+  }
+  
+  .footer a:hover,
+  .footer a:active {
+    color: #00b0dc;
+  }
+  
+  .footer .footer-link {
+    font-weight: 500;
+  }
+  
+  .footer .footer-link:hover,
+  .footer .footer-link:active {
+    color: #00b0dc !important;
+  }
+  
+  @media (max-width: 767.98px) {
+    .footer h5,
+    .footer h6,
+    .footer p,
+    .footer a {
+      font-size: 0.875rem; /* Adjust font size for small screens */
+    }
+  }
 
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
+  .transaction-section{
+    margin-top: 10%;
+  }
 h1, h2 {
     text-align: center;
     color: #333;
 }
 
-button {
+button{
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     margin: 5px;
 }
 
-button:hover {
+.logout{
+    border-radius: 40px;
+    font-weight: 500;
+    padding: 7px 15px;
+}
+
+.logout:hover{
+    background-color: #fea000;
+}
+
+.deposit:hover, .withdraw:hover, .history-btn:hover {
     background-color: #0056b3;
 }
 
@@ -82,4 +259,14 @@ th, td {
 th {
     background-color: #f2f2f2;
     font-weight: bold;
+}
+
+@media (max-width: 767.98px) {
+    .transaction-section{
+        margin-top: 15%;
+    }
+
+    .logout{
+        margin-top: 2%;
+    }
 }
