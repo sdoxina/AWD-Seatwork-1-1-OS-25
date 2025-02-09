@@ -87,4 +87,4 @@ Manage your account transactions through the app:
 
 | Title | Purpose | Link |
 |-|-|-|
-|  |  |  |
+| Double Slider Login/Registration | Used as a reference for implementing the login/registration UI | [Watch on YouTube](https://www.youtube.com/watch?v=cREkblx1Aus) |
