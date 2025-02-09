@@ -1,5 +1,5 @@
 body {
- background-color: #606c38;
+ background-color: #00b0dc;
 }
 
 .navbar {
@@ -13,14 +13,14 @@ body {
 .navbar-img {
     height: auto;
     width: auto;
-    max-height: 35px;
-    min-height: 25px;
+    max-height: 40px;
+    min-height: 30px;
     margin-right: 0.5rem;
 }
 
 .navbar-brand {
     font-weight: 500;
-    color: #606c38;
+    color: #00b0dc;
     font-size: 24px;
     transition: 0.3s color;
     width: 10%;
@@ -43,19 +43,19 @@ body {
 }
 
 .navbar-nav .nav-link.active{
-    color: #283618;
+    color: #fea000;
 }
 
 .nav-link:hover, .nav-link.active:hover {
-    color: #283618;
+    color: #fea000;
 }
 
 .nav-link:hover::after {
     content: "";
     display: block;
     position:relative;
-    height: 3px;
-    background-image: linear-gradient(to right, #fefae0, #606c38, #283618);
+    height: 2px;
+    background-image: linear-gradient(to right, #00b0dc, #fefae0);
     top: 85%;    
 }
 
@@ -77,7 +77,7 @@ body {
         font-size: 18px;
     }
     .navbar-brand img {
-        height: 10px;
+        height: 15px;
         width: auto;
     }
     .navbar-toggler {
@@ -106,13 +106,13 @@ body {
 .offcanvas-title img {
     height: auto;
     width: auto;
-    max-height: 25px;
-    min-height: 15px;
+    max-height: 30px;
+    min-height: 20px;
     margin-right: 0.5rem;
 }
 
 .offcanvas-title {
-    color: #606c38;
+    color: #00b0dc;
 }
 
 .footer {
@@ -122,12 +122,12 @@ body {
   }
   
   .footer img {
-    max-width: 30%;
+    max-width: 100%;
     height: auto;
   }
   
   .footer h5 {
-    color: #606c38;
+    color: #00b0dc;
     margin-bottom: 0.5rem;
   }
   
@@ -144,7 +144,7 @@ body {
   
   .footer a:hover,
   .footer a:active {
-    color: #606c38;
+    color: #00b0dc;
   }
   
   .footer .footer-link {
@@ -153,7 +153,7 @@ body {
   
   .footer .footer-link:hover,
   .footer .footer-link:active {
-    color: #606c38 !important;
+    color: #00b0dc !important;
   }
   
   @media (max-width: 767.98px) {
