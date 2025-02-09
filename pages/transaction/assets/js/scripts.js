@@ -114,7 +114,7 @@ window.onload = function () {
     const userEmail = sessionStorage.getItem('loggedInUser');
     if (!userEmail) {
         // Redirect to login if no user is logged in
-        window.location.href = '../../pages/login/index.html';
+        window.location.href = '/AWD-Seatwork-1-1-OS-25/index.html';
         return;
     }
 
@@ -145,6 +145,6 @@ function updateCharacterMessageBasedOnBalance(balance) {
 function checkLogin() {
     const loggedInUser = sessionStorage.getItem('loggedInUser');
     if (!loggedInUser) {
-        window.location.href = '../../pages/login/index.html'; // Redirect to login if not logged in
+        window.location.href = '/AWD-Seatwork-1-1-OS-25/index.html'; // Redirect to login if not logged in
     }
 }
