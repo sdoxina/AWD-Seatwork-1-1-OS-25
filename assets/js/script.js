@@ -1,4 +1,14 @@
-// Store user data in localStorage (you can switch this to a backend database if needed)
+const registerButton = document.getElementById("register");
+const loginButton = document.getElementById("loginButton");
+const doubleSlider = document.getElementById("doubleSlider");
+
+registerButton.addEventListener("click", () => {
+    doubleSlider.classList.add("right-panel-active");
+});
+
+loginButton.addEventListener("click", () => {
+    doubleSlider.classList.remove("right-panel-active");
+});
 
 function signupUser(event) {
     event.preventDefault();
@@ -25,7 +35,7 @@ function signupUser(event) {
 
     localStorage.setItem(email, JSON.stringify(userData));
     document.getElementById('signup-message').textContent = "Account created successfully with an initial balance of $5000!";
-    setTimeout(() => window.location.href = '../../pages/login/index.html', 1500);
+    setTimeout(() => window.location.href = '../../index.html', 1500);
 }
 
 
@@ -48,11 +58,11 @@ function loginUser(event) {
 
 function checkLogin() {
     if (!sessionStorage.getItem('loggedInUser')) {
-        window.location.href = '../../pages/login/index.html'; // Redirect to login if not logged in
+        window.location.href = '../../index.html'; // Redirect to login if not logged in
     }
 }
 
 function logoutUser() {
     sessionStorage.removeItem('loggedInUser');
-    window.location.href = '../../pages/login/index.html'; // Redirect to login after logout
+    window.location.href = '../../index.html'; // Redirect to login after logout
 }
