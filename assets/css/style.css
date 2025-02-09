@@ -92,6 +92,12 @@ body {
     .navbar-nav .nav-link {
         padding: 0.3rem 0;
     }
+
+    .nav-link:hover::after {
+      background-image: linear-gradient(to right, #00b0dc, #fefae0);
+      width: 15%;   
+  }
+
     .offcanvas-header {
         padding: 0.5rem 1rem;
     }
@@ -118,6 +124,7 @@ body {
 
 .offcanvas-title {
     color: #00b0dc;
+    margin-top: 1rem;
 }
 
 .footer {
