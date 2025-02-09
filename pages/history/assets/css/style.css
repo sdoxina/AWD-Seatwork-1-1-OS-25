@@ -177,10 +177,100 @@ body {
     }
   }
 
+  .transaction-section {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
 
-  .transaction-section{
-    margin-top: 10%;
-  }
+.transaction-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#account-section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+#balance {
+    font-weight: bold;
+    font-size: 50px;
+    color: #007bff;
+}
+
+
+  #history-section {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#history-section h2 {
+    text-align: center;
+    color: #00b0dc;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#transaction-history-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f8f9fa;
+}
+
+#transaction-history-table th, 
+#transaction-history-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+#transaction-history-table thead {
+    background: #00b0dc;
+    color: white;
+    font-weight: bold;
+}
+
+#transaction-history-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#transaction-history-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+#transaction-history-table tbody tr:hover {
+    background: rgba(0, 176, 220, 0.1);
+    transition: background 0.3s ease-in-out;
+}
+
+@media (max-width: 767.98px) {
+    #history-section {
+        padding: 15px;
+    }
+    
+    #transaction-history-table th,
+    #transaction-history-table td {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    #history-section h2 {
+        font-size: 1.5rem;
+    }
+}
+
 h1, h2 {
     text-align: center;
     color: #333;
@@ -204,61 +294,6 @@ button{
 
 .logout:hover{
     background-color: #fea000;
-}
-
-.deposit:hover, .withdraw:hover, .history-btn:hover {
-    background-color: #0056b3;
-}
-
-#balance {
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-#transaction-message {
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-/* Character Section */
-#character-section {
-    text-align: center;
-    margin-top: 20px;
-}
-
-#helper-character {
-    max-width: 150px;
-}
-
-#character-message {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #555;
-    font-weight: bold;
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
-    padding: 8px;
-    text-align: center;
-}
-
-th {
-    background-color: #f2f2f2;
-    font-weight: bold;
 }
 
 @media (max-width: 767.98px) {

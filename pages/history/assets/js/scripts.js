@@ -28,7 +28,7 @@ function displayTransactionHistory(history) {
             <td>${transaction.date}</td>
             <td>${transaction.time}</td>
             <td>${transaction.type}</td>
-            <td>$${transaction.amount}</td>
+            <td>PHP ${transaction.amount}</td>
         `;
         historyTable.appendChild(newRow);
     });
